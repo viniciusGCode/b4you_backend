@@ -1,4 +1,5 @@
 # Sumário
+- [Link do deploy da aplicação](#link-do-deploy-da-aplicação)
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Pré-requisitos](#pré-requisitos)
@@ -10,6 +11,11 @@
 - [Validação de Dados](#validação-de-dados)
 - [API Endpoints](#api-endpoints)
 
+# Link do deploy da aplicação
+
+```url
+https://b4youbackend-production.up.railway.app/
+```
 # Descrição do Projeto
 API REST desenvolvida em Node.js com TypeScript para gerenciar produtos e autenticação de usuários. O backend utiliza Sequelize para integração com banco de dados MySQL, que roda via Docker.
 
