@@ -1,5 +1,5 @@
-import { User } from '../src/modules/user/entities/User';
-import { Product } from '../src/modules/product/entities/Product';
+import { User } from '../modules/user/entities/User';
+import { Product } from '../modules/product/entities/Product';
 
 export const seedDefaultUser = async () => {
   const defaultUsername = 'admin@b4you.dev';

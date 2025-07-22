@@ -9,6 +9,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src", "seeders/seed.ts"],
+  "include": ["src", "src/seeders/seed.ts"],
   "exclude": ["dist", "node_modules"]
 }
