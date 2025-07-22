@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: MRAPbXMjaKrqXjox
+      MYSQL_DATABASE: b4you
+      MYSQL_USER: vinicius
+      MYSQL_PASSWORD: MRAPbXMjaKrqXjox
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    restart: always
+
+volumes:
+  mysql_data:
