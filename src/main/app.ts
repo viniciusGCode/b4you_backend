@@ -5,10 +5,11 @@ import userRoutes from '../modules/user/routes';
 
 const app = express();
 
-app.use(cors({
-  origin: 'http://localhost:3001',
-  credentials: true
-}));
+app.use(
+  cors({
+    origin: '*',
+  }),
+);
 
 app.use(express.json());
 
