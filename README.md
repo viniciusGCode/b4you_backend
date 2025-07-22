@@ -13,6 +13,9 @@
 # Descrição do Projeto
 API REST desenvolvida em Node.js com TypeScript para gerenciar produtos e autenticação de usuários. O backend utiliza Sequelize para integração com banco de dados MySQL, que roda via Docker.
 
+## Mais detalhes do repositório podem ser consultados no deepwiki:
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/viniciusGCode/b4you_backend)
+
 # Tecnologias Utilizadas
 - Node.js
 - TypeScript
